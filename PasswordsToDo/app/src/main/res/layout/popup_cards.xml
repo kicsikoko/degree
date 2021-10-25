@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="650dp"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_card_design"
+    android:padding="50dp">
+
+
+    <EditText
+        android:id="@+id/cardsCVC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/hintCVC"
+        android:inputType="number"
+        android:maxLength="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        tools:ignore="LabelFor,RtlHardcoded"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tV_cardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="22dp"
+        android:text="@string/cNumber"
+        android:textStyle="italic"
+        android:textColor="@color/colorTextGray"
+        app:layout_constraintBottom_toTopOf="@+id/cardsNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cardsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/hintName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/cName"
+        android:textStyle="italic"
+        android:textColor="@color/colorTextGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardsNumber" />
+
+    <EditText
+        android:id="@+id/cardsNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/hintNumber"
+        android:inputType="phone"
+        tools:ignore="LabelFor,NegativeMargin"
+        android:maxLength="19"
+        android:maxLines="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV_cardNumber" />
+
+    <TextView
+        android:id="@+id/cardDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/cDate"
+        android:textColor="@color/colorTextGray"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardsName" />
+
+    <EditText
+        android:id="@+id/cardsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:ignore="LabelFor,RtlHardcoded"
+        android:hint="@string/hintDate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardDate"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="29dp"
+        android:text="@string/cCVC"
+        android:textStyle="italic"
+        android:textColor="@color/colorTextGray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardsDate" />
+
+    <Button
+        android:id="@+id/cardButt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/button_design2"
+        android:shadowColor="@color/colorPrimaryText"
+        android:text="@string/add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardsCVC" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

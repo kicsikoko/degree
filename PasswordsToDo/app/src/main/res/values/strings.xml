@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Passwords To Do</string>
+    <string name="profile">Profile</string>
+    <string name="notification">Notification</string>
+    <string name="cards">Cards</string>
+    <string name="to_do">To-Do</string>
+    <string name="others">Others</string>
+    <string name="settings">Settings</string>
+    <string name="support">Support</string>
+    <string name="about_us">About Us</string>
+    <string name="logged">Logged in</string>
+    <string name="john_doe">John Doe</string>
+
+    <!--PopCard-->
+    <string name="cName">Card Holder Name</string>
+    <string name="cNumber">Card Number</string>
+    <string name="cDate">Expire Date (MM/YYYY)</string>
+    <string name="cCVC">Security Number</string>
+
+    <string name="hintNumber">1111 2222 3333 4444</string>
+    <string name="hintName">John Doe</string>
+    <string name="hintDate">MM/YYYY</string>
+    <string name="hintCVC">123</string>
+
+    <!--Basic Stuffs-->
+    <string name="signup_button">Sign up</string>
+    <string name="signup_textClick">Sign up</string>
+    <string name="login_button">Log in</string>
+    <string name="title_text">Hide My Stuff</string>
+    <string name="email_tv">E-mail</string>
+    <string name="pwd_textv">Password</string>
+    <string name="signup_text">Not sign up yet?</string>
+    <string name="logscreen_imgView">"It is a lock"</string>
+
+    <!--RegisterActivity-->
+    <string name="registAct_name">Sign Up</string>
+    <string name="username_tv">Username</string>
+    <string name="pwdCheck_tv">Confirm password</string>
+    <string name="regist_text">Please fill </string>
+    <string name="regist_support">Support</string>
+    <string name="regist_about">About</string>
+    <string name="title_activity_logged_in_activity">LoggedIn_activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="log_out">Log out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="mark">Mark as completed</string>
+    <string name="reset">Reset</string>
+
+    <!--Notifications-->
+    <string name="notChannelID">This is 0 notification!</string>
+    <string name="notChannel1">You added a new card!</string>
+    <string name="notChannel2">This is just a test for notification, which shows you successfully added a new card :)</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+
+    <!--For Reminders-->
+    <string name="title_activity_add_reminder">Add Reminder</string>
+    <string name="title_activity_edit_reminder">Edit Reminder</string>
+    <string name="title_activity_licenses">Licenses</string>
+    <string name="add_reminder">Reminder</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="repeat_off">Off</string>
+    <string name="repeat_no">Repetition Interval </string>
+    <string name="repeat_type">Type of Repetitions</string>
+    <string name="action_discard_reminder">Discard Reminder</string>
+    <string name="action_save_reminder">Save Reminder</string>
+    <string name="editor_activity_title_new_reminder">Add Reminder Details</string>
+    <string name="editor_activity_title_edit_reminder">Edit Reminder</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete_dialog_msg">Delete this Reminder?</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+    <string name="reminder_title">AlarmReminder</string>
+    <string name="every">Every </string>
+    <string name="empty"> </string>
+    <string name="s">(s)</string>
+
+
+    <string name="dark_mode_def">MODE_NIGHT_FOLLOW_SYSTEM</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="pwd">Passwords</string>
+    <string name="url">URL</string>
+    <string name="username">Username</string>
+    <string name="add">Add</string>
+    <string name="title_todo">To-do list</string>
+    <string name="profilepic">profilePic</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="facebook">Facebook</string>
+    <string name="kovacsb11_hotmail_com">kovacsb11@hotmail.com</string>
+    <string name="no_reminder_added_yet">No reminder added yet.</string>
+    <string name="title">Title</string>
+    <string name="repeat_no_and_type">Repeat No and Type</string>
+    <string name="no_more_items">No more items</string>
+    <string name="store_pwds">Store your passwords here</string>
+    <string name="update_credentials">Update Credentials</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="noreminder">No Reminders Set\nClick + to add the reminders</string>
+
+
+</resources>

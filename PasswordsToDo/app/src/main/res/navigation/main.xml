@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuProfile">
+
+    <fragment
+        android:id="@+id/menuProfile"
+        android:name="com.kicsiroot.passwordstodo.profileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuNotifications"
+        android:name="com.kicsiroot.passwordstodo.notificationFragment"
+        android:label="Notfications"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/menuPasswords"
+        android:name="com.kicsiroot.passwordstodo.passwordsFragment"
+        android:label="Passwords"
+        tools:layout="@layout/fragment_passwords" />
+
+</navigation>

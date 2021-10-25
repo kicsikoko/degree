@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "44937032704",
+    "firebase_url": "https://passwords-to-do.firebaseio.com",
+    "project_id": "passwords-to-do",
+    "storage_bucket": "passwords-to-do.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44937032704:android:b1a7a51c7a2139205e54e5",
+        "android_client_info": {
+          "package_name": "com.kicsiroot.passwordstodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44937032704-kdfhut89oikls4ta95cjm743o903r71q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAITncwsclO3QTrwMbLbHOKKKVsguGF7tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44937032704-kdfhut89oikls4ta95cjm743o903r71q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

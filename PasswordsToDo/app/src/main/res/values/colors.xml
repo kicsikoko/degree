@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#197FFC</color>
+    <color name="colorPrimaryDark">#0C1687</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorVerified">#32CD32</color>
+    <color name="colorVerifiedDark">#009900</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorTextGray">#585858</color>
+    <color name="colorToolbar">#00b8e6</color>
+    <color name="navigationViewColor">#f5f5f0</color>
+
+
+    <!--Buttons and clickables-->
+    <color name="colorButtons">#F5B82F</color>
+    <color name="colorSignUp">#B0B0B0</color>
+    <color name="colorSignupTxtV">#0000FF</color>
+    <!--Popup Texts-->
+
+</resources>

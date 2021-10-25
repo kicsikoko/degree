@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/saved_pwd_design">
+
+        <ImageView
+            android:layout_width="335dp"
+            android:layout_height="185dp"/>
+
+    <TextView
+        android:id="@+id/showNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:text="5231-4012-5648-8989"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/showName"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showNumber"
+        android:text="Bence Kovács"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/showDate"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showName"
+        android:text="01/23"
+        android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/showCVC"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kovi1995"
+        android:inputType="textPassword"
+        android:layout_below="@+id/showDate"
+        />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

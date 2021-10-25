@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardsDetail"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:orientation="vertical"
+        android:background="@color/colorToolbar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_credentials"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textColor="@color/colorWhite"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="-60dp"
+        android:orientation="vertical"
+        android:paddingBottom="22dp"
+        android:paddingTop="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/linear_design"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cNumber"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:id="@+id/update_number"
+                android:background="@drawable/edittext_style"
+                android:textColorHint="@color/colorPrimaryText"
+                android:hint="@string/url"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cName"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginStart="10dp"
+                android:paddingTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:id="@+id/update_name"
+                android:background="@drawable/edittext_style"
+                android:textColorHint="@color/colorPrimaryText"
+                android:hint="@string/email_tv"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/cDate"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:id="@+id/update_date"
+                android:paddingLeft="12dp"
+                android:background="@drawable/edittext_style"
+                android:textColorHint="@color/colorTextGray"
+                android:hint="@string/username"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/password"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/update_cvc"
+                android:layout_height="45dp"
+                android:inputType="text"
+                android:paddingLeft="12dp"
+                android:background="@drawable/edittext_style"
+                android:textColorHint="@color/colorTextGray"
+                android:hint="@string/password"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/card_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_style"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/save"/>
+    <Button
+        android:id="@+id/card_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/button_design2"
+        android:text="@string/back"/>
+    <Button
+        android:id="@+id/card_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/delete"
+        android:background="@drawable/edittext_style"/>
+
+</LinearLayout>

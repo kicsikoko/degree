@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/reg_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navigationViewColor"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/etxtRegmail"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="1dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:background="@drawable/edittext_style"
+        android:hint="@string/email_tv"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/etxtRegpwd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etxtRegpwd"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pwd_textv"
+        android:background="@drawable/edittext_style"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@id/etxtRegpwdcheck"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etxtRegmail" />
+
+    <EditText
+        android:id="@+id/etxtRegpwdcheck"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/pwdCheck_tv"
+        android:background="@drawable/edittext_style"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/btnSignup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtRegpwd" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/button_style"
+        android:text="@string/signup_button"
+        app:layout_constraintBottom_toTopOf="@+id/reg_tvAbout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtRegpwdcheck" />
+
+    <TextView
+        android:id="@+id/reg_tvAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginEnd="180dp"
+        android:text="@string/regist_about"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/reg_tvSupport"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
+
+    <TextView
+        android:id="@+id/reg_tvSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/regist_support"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_tvAbout" />
+
+    <ImageView
+        android:id="@+id/regImage"
+        android:layout_width="170dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/etxtRegmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addprofilepic"
+        android:contentDescription="@string/profile" />
+
+    <ProgressBar
+        android:id="@+id/regProgressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="181dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/reg_tvAbout"
+        android:background="@color/navigationViewColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
